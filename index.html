@@ -1,102 +1,45 @@
 <!DOCTYPE html>
-<html lang="pl">
-	<head>
-		<title> Jakiś tytuł</title><!--tytuł strony-->
-		<meta charset="utf-8">
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet"> 
-		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="main.css">
-	</head>
-	<body>
-		<nav>
-			<ul>
-				<li>
-					<a href="index.html">Strona główna</a>
-				</li>
-				<li>
-					<a class="ble" href="index2.html">o mnie</a></li>
-					<li class="sto"><a href="index3.html">Blog</a>
-						<span>12</span>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Strona w bootstrapie</title>
+	<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+ 
+  <nav class="navbar navbar-default">
+    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <a class="navbar-brand" href="#">Przepis.pl</a>
+    </div>
 
-					</li>
-					<li><a class="ble" href="#">Kontakt</a></li>
-				</ul>
-
-
-		</nav>	
-		<article>
-		
-			<header>
-				<div class="obrazek">
-					Hejo!
-			
-          </div>
-
-			</header>
-			<p id="my-id">To jest moje ID</p>
-			<p class="abc">Treść mojego wpisu. Cośtam owośtam.</p>
-				<p>Zaszalejemy z dwoma akapitami? </p>
-				<p> Jeszcze jakieś zagadnienia</p>
-				<div class="paragraf1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-				<img src="kot.jpg" alt="kotek">
-				<q>I jeszcze cytat</q>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<div class="site">
-				<div class="film"><iframe src="https://www.youtube.com/embed/YykjpeuMNEk?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div></div>
-				<i class="fa fa-bicycle" aria-hidden="true"></i>
-				<H2>Mniejszy nagłówek!</H2>
-				<i class="fa fa-rocket" aria-hidden="true"></i>
-
-				<p class="abc">Kolejna część wpisu!</p>			
-				<input type="text" placeholder="Twoje imie" required><br>
-				<input type="text" disabled><br>
-				<input type="password">	
-				<input type="checkbox">
-				<input type="submit">
-			<footer>
-			 Napisała:Ewa, <time datetime="2017-03-21 11:46"></time>
-			</footer>
-		</article>	
-		<div class="accessDate">
-			<form action="">
-				<fieldset>
-					<legend>Nasz pierwszy formularz LOGOWANIA!</legend>
-					<label>Login:</label>
-					<input type="text" placeholder="Podaj login">
-					<label>Password:</label>
-					<input type="password" placeholder="Podaj hasło">
-					<label class="approve"><a href="#">Akceptuje regulamin</a></label>
-					<input type="checkbox" required>
-					<input type="submit" value="Chce dane">
-				</fieldset>
-			</form>
-		</div>	
-	</body>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Start <span class="sr-only">(current)</span></a></li>
+        <li><a href="#"> Składniki</a></li>
+        <li><a href="#"> Przepis</a></li>
+       
+        </li>
+      </ul>
+      
+          </ul> 
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<div class="container"> 
+  <img src="fasolki.jpg" class="img-responsive" alt="fasolki!"></div>
+</body>
 </html>
