@@ -6,3 +6,18 @@ img{
 .navbar{
 	margin-bottom: 0px;
 }
+.bgcolor{
+	background-color: #660033;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+
+
+}
+.fa {
+	font-size: 150px;
+	display: block;
+	padding: 40px;
+}
